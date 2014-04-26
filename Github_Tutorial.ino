@@ -23,6 +23,7 @@ void loop()
 {
   int myValue = 0;
   float num = 0.0;
+  num + = 1.0;
   myValue = analogRead(A0);
   
   Serial.print("The value is: ");
